@@ -19,11 +19,18 @@
 </div>
   </h3>
 <script>
-  var min=0;
-  var max=96;
-  var random =Math.floor(Math.random() * (+max - +min)) + +min;
   var lastnumber=0;
   document.getElementById('1').innerHTML = "welcome to the night<br>don't worry if you can't see anything<br>you will find a source of light soon"
+  var myVar = setInterval(changetext, 1000);
+  function changetext(){
+    var min=0;
+    var max=96;
+    var random =Math.floor(Math.random() * (+max - +min)) + +min;
+    var text = "welcome to the night*don't worry if you can't see anything*you will find a source of light soon"
+    var newtext = text.slice(0, random) + "<h2>" + txt1.slice(random);
+    newtext = text.slice(0, random + 5) + "</h2>" + txt1.slice(random + 5);
+    document.getElementById('1').innerHTML = nextext.replace(/*/g, "<br>");
+  }
 </script>
 </body>
 <html>
