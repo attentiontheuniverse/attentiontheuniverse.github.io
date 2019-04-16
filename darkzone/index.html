@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+  history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+  </script>
+  <meta charset="utf-8">
+    <title>attention the universe</title>
+    <link rel="stylesheet" type="text/css" href="darkstylesheet.css">
+    <link rel=icon href=/favicon.png>
+</head>
+<body>
+  <h3>
+<div id="1">
+</div>
+  </h3>
+<script>
+  var min=0;
+  var max=96;
+  var random =Math.floor(Math.random() * (+max - +min)) + +min;
+  var lastnumber=0;
+  document.getElementById('1').innerHTML = "welcome to the night\ndon't worry if you can't see anything\nyou will find a source of light soon"
+</script>
+</body>
+<html>
