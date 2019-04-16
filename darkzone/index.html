@@ -29,7 +29,7 @@
     var text = "welcome to the night*don't worry if you can't see anything*you will find a source of light soon"
     var newtext = text.slice(0, random) + "<h2>" + txt1.slice(random);
     newtext = text.slice(0, random + 5) + "</h2>" + txt1.slice(random + 5);
-    document.getElementById('1').innerHTML = nextext.replace(/*/g, "<br>");
+    document.getElementById('1').innerHTML = nextext.replace(/"*"/g, "<br>");
   }
 </script>
 </body>
