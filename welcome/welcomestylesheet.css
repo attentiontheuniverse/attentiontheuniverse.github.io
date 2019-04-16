@@ -43,3 +43,11 @@ h2.left {
   color: black;
   font-family: "Lucida Console", monaco, monospace;
 }
+
+a {
+  color: white;
+}
+
+a.h{
+  text-decoration: none;
+}
