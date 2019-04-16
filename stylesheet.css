@@ -17,6 +17,10 @@ a {
   color: white;
 }
 
+a.h{
+  text-decoration: none;
+}
+
 img {
   margin-bottom:10px;
 }
