@@ -44,10 +44,14 @@ h2.left {
   font-family: "Lucida Console", monaco, monospace;
 }
 
-a {
+a.h{
+  text-decoration: none;
+}
+
+a.r{
   color: white;
 }
 
-a.h{
-  text-decoration: none;
+a.l{
+  color: black;
 }
