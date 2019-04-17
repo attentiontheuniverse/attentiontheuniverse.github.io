@@ -10,4 +10,5 @@ h3 {
 h2 {
   color: white;
   font-family: "Lucida Console", monaco, monospace;
+  display:inline;
 }
