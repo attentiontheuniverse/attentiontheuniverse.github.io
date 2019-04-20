@@ -1,5 +1,5 @@
 body {
-  background-color: black
+  background-color: black;
 }
 
 h3 {
@@ -11,4 +11,23 @@ h2 {
   color: white;
   font-family: "Lucida Console", monaco, monospace;
   display:inline;
+}
+
+div.bl{
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 10%;
+  height: 10%;
+
+}
+
+.bl h3{
+  color: black;
+}
+
+.bl a{
+  text-decoration: none;
+  color: black;
 }

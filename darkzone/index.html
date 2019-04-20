@@ -14,11 +14,16 @@
     <link rel=icon href=/favicon.png>
 </head>
 <body>
+
   <h3>
 <div id="1">
 welcome to the night<br>don't worry if you can't see anything<br>you will find a source of light soon
 </div>
-  </h3>
+</h3>
+<div class="bl" id="2">
+  <h3><a href="/lightzone" class="h l">hello</a></h3>
+</div>
+
   <script>
     var lastnumber=0;
     var myVar = setInterval(changetext, 100);
@@ -31,6 +36,8 @@ welcome to the night<br>don't worry if you can't see anything<br>you will find a
       newtext = newtext.slice(0, random + 5) + "</h2>" + newtext.slice(random + 5);
       document.getElementById('1').innerHTML = newtext.replace(/x/gi, '<br>');
     }
+
+
   </script>
 </body>
 <html>

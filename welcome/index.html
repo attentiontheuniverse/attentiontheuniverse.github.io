@@ -19,16 +19,30 @@
     </style>
 </head>
 <body>
-  <div class="s left">
- <div class="c">
-   <h2 class="left"><a href="/lightzone" class="h l">Light Zone</a></h2>
+  <div class="s left" id="left">
+ <div class="c" id="ltext">
+   <h2 class="left"><a href="/lightzone" class="h l" onmouseover="switchsideleft()">Light Zone</a></h2>
  </div>
 </div>
 
-<div class="s right">
- <div class="c">
+<div class="s right" id="right">
+ <div class="c" id="rtext">
    <h2 class="right"><a href="/darkzone" class="h r">Dark Zone</a></h2>
  </div>
 </div>
+<script>
+function switchsideleft() {
+  document.getElementById('left').style.backgroundColor = "black";
+  document.getElementById('right').style.backgroundColor = "white";
+  document.getElementById('ltext').innerHTML = "<h2 class=\"right\"><a href=\"/darkzone\" class=\"h r\">Dark Zone</a></h2>";
+  document.getElementById('rtext').innerHTML = "<h2 class=\"left\"><a href=\"/lightzone\" class=\"h l\" onmouseover=\"switchsideright()\">Light Zone</a></h2>";
+}
+  function switchsideright() {
+    document.getElementById('left').style.backgroundColor = "white";
+    document.getElementById('right').style.backgroundColor = "black";
+    document.getElementById('ltext').innerHTML = "<h2 class=\"left\"><a href=\"/lightzone\" class=\"h l\" onmouseover=\"switchsideleft()\">Light Zone</a></h2>";
+    document.getElementById('rtext').innerHTML = "<h2 class=\"right\"><a href=\"/darkzone\" class=\"h r\">Dark Zone</a></h2>";
+ }
+</script>
 </body>
 <html>
