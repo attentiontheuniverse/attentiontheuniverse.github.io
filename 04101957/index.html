@@ -1,1 +1,27 @@
-
+<html>
+<head>
+  <script>
+  history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+  </script>
+  <meta charset="utf-8">
+    <title>notes</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+    <link rel=icon href=/favicon.png>
+    <style>
+    body {
+      background-image: url("irn.gif");
+      background-repeat: repeat;
+    }
+    </style>
+</head>
+<body>
+  <p class="plain">
+    <h5>
+      <a href="./1.jpg">1</a><br>
+    </h5>
+  </p>
+</body>
+<html>
