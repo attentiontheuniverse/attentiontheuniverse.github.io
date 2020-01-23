@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+}
+
+h3 {
+  color: black;
+  font-family: "Lucida Console", monaco, monospace;
+}
+
+h2 {
+  color: black;
+  font-family: "Lucida Console", monaco, monospace;
+  display:inline;
+}
+
+div.bl{
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 10%;
+  height: 10%;
+
+}
+
+.bl h3{
+  color: white;
+}
+
+.bl a{
+  text-decoration: none;
+  color: white;
+}
